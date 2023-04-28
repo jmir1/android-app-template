@@ -24,7 +24,7 @@ This is your new Kotlin Android Project! Happy hacking!
 ## Template ToDo list 👣
 
 - [x] Create a new template project.
-- [ ] Choose a [LICENSE](https://github.com/jmir1/android-app-template/community/license/new?branch=main).
+- [x] Choose a [LICENSE](https://github.com/jmir1/android-app-template/community/license/new?branch=main).
 - [ ] Code some cool apps and libraries 🚀.
 
 ## Features 🎨
@@ -58,8 +58,6 @@ This template is using [**GitHub Actions**](https://github.com/cortinico/kotlin-
 There are currently the following workflows available:
 - [Validate Gradle Wrapper](.github/workflows/gradle-wrapper-validation.yml) - Will check that the gradle wrapper has a valid checksum
 - [Pre Merge Checks](.github/workflows/pre-merge.yaml) - Will run the `build`, `check` and `publishToMavenLocal` tasks.
-- [Publish Snapshot](.github/workflows/publish-snapshot.yaml) - Will publish a `-SNAPSHOT` of the libraries to Sonatype.
-- [Publish Release](.github/workflows/publish-release.yaml) - Will publish a new release version of the libraries to Maven Central on tag pushes.
 
 ## Publishing 🚀
 
