@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import app.cash.quickjs.QuickJs
+import app.cash.quickjs.QuickJsException
 import com.github.jmir1.template.app.databinding.ActivityMainBinding
 import com.github.jmir1.template.library.android.ToastUtil
 
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                             """.trimIndent()
                     )
                     engine.get("result", TestInterface::class.java).getValue()
-                } catch (ex: Exception) {
+                } catch (ex: QuickJsException) {
                     "Error: ${ex.message}"
                 }
 
